@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.custom-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:120px;
+}
+
+/* Hover effect */
+.custom-btn:hover:not(:disabled) {
+  background-color: #41e40fc5;
+  transform: scale(1.05);
+}
+
+/* Disabled button style */
+.custom-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
