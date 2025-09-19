@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/ButtonDesign.css";
+import "../css/buttondesign.css";
 
 const ButtonDesign = () => {
   // Track which buttons have been clicked
@@ -63,8 +63,7 @@ const ButtonDesign = () => {
         </button>
       </div>
 
-      {/* Show what the user selected */}
-      <p className="status">
+      {/* Show what the user selected */}      <p className="status">
         {selected.length > 0
           ? `You selected: ${selected.join(" + ")}`
           : "Select two options"}
